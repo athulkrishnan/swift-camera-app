@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A556E3BA1A276AB80051057C /* kuva.png in Resources */ = {isa = PBXBuildFile; fileRef = A556E3B91A276AB80051057C /* kuva.png */; };
+		A556E3BC1A27A4840051057C /* ACAImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556E3BB1A27A4840051057C /* ACAImageData.swift */; };
+		A556E3BE1A27B8700051057C /* ACAKeyGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556E3BD1A27B8700051057C /* ACAKeyGen.swift */; };
+		A5573B0A1A5BEEFF00CC52EC /* StoryboardTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5573B091A5BEEFF00CC52EC /* StoryboardTest.storyboard */; };
+		A59468FC1A136A0300E27567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59468FB1A136A0300E27567 /* AppDelegate.swift */; };
+		A59468FE1A136A0300E27567 /* ACAMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59468FD1A136A0300E27567 /* ACAMasterViewController.swift */; };
+		A59469001A136A0300E27567 /* ACADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59468FF1A136A0300E27567 /* ACADetailViewController.swift */; };
+		A59469031A136A0300E27567 /* ACAMainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59469011A136A0300E27567 /* ACAMainStoryboard_iPhone.storyboard */; };
+		A59469051A136A0300E27567 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59469041A136A0300E27567 /* Images.xcassets */; };
+		A59469081A136A0300E27567 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59469061A136A0300E27567 /* LaunchScreen.xib */; };
+		A59469141A136A0300E27567 /* CameraAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59469131A136A0300E27567 /* CameraAppSwiftTests.swift */; };
+		A5C404301A2894A10095C484 /* FileStorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4042F1A2894A10095C484 /* FileStorageController.swift */; };
+		A5C404321A28B5EE0095C484 /* ACAUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C404311A28B5EE0095C484 /* ACAUIImageExtension.swift */; };
+		A5D3A5B91A5D3900000C4A70 /* ACAMainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D3A5B81A5D3900000C4A70 /* ACAMainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A594690E1A136A0300E27567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59468EE1A136A0300E27567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59468F51A136A0300E27567;
+			remoteInfo = CameraAppSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A556E3B91A276AB80051057C /* kuva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuva.png; sourceTree = "<group>"; };
+		A556E3BB1A27A4840051057C /* ACAImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAImageData.swift; sourceTree = "<group>"; };
+		A556E3BD1A27B8700051057C /* ACAKeyGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAKeyGen.swift; sourceTree = "<group>"; };
+		A5573B091A5BEEFF00CC52EC /* StoryboardTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardTest.storyboard; sourceTree = "<group>"; };
+		A59468F61A136A0300E27567 /* CameraAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59468FA1A136A0300E27567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59468FB1A136A0300E27567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A59468FD1A136A0300E27567 /* ACAMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAMasterViewController.swift; sourceTree = "<group>"; };
+		A59468FF1A136A0300E27567 /* ACADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACADetailViewController.swift; sourceTree = "<group>"; };
+		A59469021A136A0300E27567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ACAMainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A59469041A136A0300E27567 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A59469071A136A0300E27567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A594690D1A136A0300E27567 /* CameraAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59469121A136A0300E27567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59469131A136A0300E27567 /* CameraAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppSwiftTests.swift; sourceTree = "<group>"; };
+		A5C4042F1A2894A10095C484 /* FileStorageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorageController.swift; sourceTree = "<group>"; };
+		A5C404311A28B5EE0095C484 /* ACAUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAUIImageExtension.swift; sourceTree = "<group>"; };
+		A5D3A5B81A5D3900000C4A70 /* ACAMainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ACAMainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59468F31A136A0300E27567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A594690A1A136A0300E27567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59468ED1A136A0300E27567 = {
+			isa = PBXGroup;
+			children = (
+				A5C404311A28B5EE0095C484 /* ACAUIImageExtension.swift */,
+				A5C4042F1A2894A10095C484 /* FileStorageController.swift */,
+				A556E3BD1A27B8700051057C /* ACAKeyGen.swift */,
+				A556E3BB1A27A4840051057C /* ACAImageData.swift */,
+				A59468F81A136A0300E27567 /* CameraAppSwift */,
+				A59469101A136A0300E27567 /* CameraAppSwiftTests */,
+				A59468F71A136A0300E27567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59468F71A136A0300E27567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59468F61A136A0300E27567 /* CameraAppSwift.app */,
+				A594690D1A136A0300E27567 /* CameraAppSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59468F81A136A0300E27567 /* CameraAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A59468FB1A136A0300E27567 /* AppDelegate.swift */,
+				A59468FD1A136A0300E27567 /* ACAMasterViewController.swift */,
+				A59468FF1A136A0300E27567 /* ACADetailViewController.swift */,
+				A59469011A136A0300E27567 /* ACAMainStoryboard_iPhone.storyboard */,
+				A59469041A136A0300E27567 /* Images.xcassets */,
+				A556E3B91A276AB80051057C /* kuva.png */,
+				A59469061A136A0300E27567 /* LaunchScreen.xib */,
+				A59468F91A136A0300E27567 /* Supporting Files */,
+				A5573B091A5BEEFF00CC52EC /* StoryboardTest.storyboard */,
+				A5D3A5B81A5D3900000C4A70 /* ACAMainStoryboard_iPad.storyboard */,
+			);
+			path = CameraAppSwift;
+			sourceTree = "<group>";
+		};
+		A59468F91A136A0300E27567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59468FA1A136A0300E27567 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A59469101A136A0300E27567 /* CameraAppSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A59469131A136A0300E27567 /* CameraAppSwiftTests.swift */,
+				A59469111A136A0300E27567 /* Supporting Files */,
+			);
+			path = CameraAppSwiftTests;
+			sourceTree = "<group>";
+		};
+		A59469111A136A0300E27567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59469121A136A0300E27567 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59468F51A136A0300E27567 /* CameraAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59469171A136A0300E27567 /* Build configuration list for PBXNativeTarget "CameraAppSwift" */;
+			buildPhases = (
+				A59468F21A136A0300E27567 /* Sources */,
+				A59468F31A136A0300E27567 /* Frameworks */,
+				A59468F41A136A0300E27567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraAppSwift;
+			productName = CameraAppSwift;
+			productReference = A59468F61A136A0300E27567 /* CameraAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A594690C1A136A0300E27567 /* CameraAppSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A594691A1A136A0300E27567 /* Build configuration list for PBXNativeTarget "CameraAppSwiftTests" */;
+			buildPhases = (
+				A59469091A136A0300E27567 /* Sources */,
+				A594690A1A136A0300E27567 /* Frameworks */,
+				A594690B1A136A0300E27567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A594690F1A136A0300E27567 /* PBXTargetDependency */,
+			);
+			name = CameraAppSwiftTests;
+			productName = CameraAppSwiftTests;
+			productReference = A594690D1A136A0300E27567 /* CameraAppSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59468EE1A136A0300E27567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Antti Oinaala";
+				TargetAttributes = {
+					A59468F51A136A0300E27567 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 993TLXJ3KX;
+					};
+					A594690C1A136A0300E27567 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A59468F51A136A0300E27567;
+					};
+				};
+			};
+			buildConfigurationList = A59468F11A136A0300E27567 /* Build configuration list for PBXProject "CameraAppSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59468ED1A136A0300E27567;
+			productRefGroup = A59468F71A136A0300E27567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59468F51A136A0300E27567 /* CameraAppSwift */,
+				A594690C1A136A0300E27567 /* CameraAppSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59468F41A136A0300E27567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59469031A136A0300E27567 /* ACAMainStoryboard_iPhone.storyboard in Resources */,
+				A5573B0A1A5BEEFF00CC52EC /* StoryboardTest.storyboard in Resources */,
+				A59469081A136A0300E27567 /* LaunchScreen.xib in Resources */,
+				A556E3BA1A276AB80051057C /* kuva.png in Resources */,
+				A5D3A5B91A5D3900000C4A70 /* ACAMainStoryboard_iPad.storyboard in Resources */,
+				A59469051A136A0300E27567 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A594690B1A136A0300E27567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59468F21A136A0300E27567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C404321A28B5EE0095C484 /* ACAUIImageExtension.swift in Sources */,
+				A59469001A136A0300E27567 /* ACADetailViewController.swift in Sources */,
+				A5C404301A2894A10095C484 /* FileStorageController.swift in Sources */,
+				A556E3BE1A27B8700051057C /* ACAKeyGen.swift in Sources */,
+				A59468FE1A136A0300E27567 /* ACAMasterViewController.swift in Sources */,
+				A59468FC1A136A0300E27567 /* AppDelegate.swift in Sources */,
+				A556E3BC1A27A4840051057C /* ACAImageData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59469091A136A0300E27567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59469141A136A0300E27567 /* CameraAppSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A594690F1A136A0300E27567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59468F51A136A0300E27567 /* CameraAppSwift */;
+			targetProxy = A594690E1A136A0300E27567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A59469011A136A0300E27567 /* ACAMainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59469021A136A0300E27567 /* Base */,
+			);
+			name = ACAMainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A59469061A136A0300E27567 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59469071A136A0300E27567 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59469151A136A0300E27567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Antti Oinaala (7236992LY8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A59469161A136A0300E27567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Antti Oinaala (7236992LY8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59469181A136A0300E27567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CameraAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A59469191A136A0300E27567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CameraAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A594691B1A136A0300E27567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CameraAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraAppSwift.app/CameraAppSwift";
+			};
+			name = Debug;
+		};
+		A594691C1A136A0300E27567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CameraAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraAppSwift.app/CameraAppSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59468F11A136A0300E27567 /* Build configuration list for PBXProject "CameraAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59469151A136A0300E27567 /* Debug */,
+				A59469161A136A0300E27567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59469171A136A0300E27567 /* Build configuration list for PBXNativeTarget "CameraAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59469181A136A0300E27567 /* Debug */,
+				A59469191A136A0300E27567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A594691A1A136A0300E27567 /* Build configuration list for PBXNativeTarget "CameraAppSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A594691B1A136A0300E27567 /* Debug */,
+				A594691C1A136A0300E27567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59468EE1A136A0300E27567 /* Project object */;
+}
